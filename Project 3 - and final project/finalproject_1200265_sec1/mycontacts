@@ -1,0 +1,31 @@
+touch contacts
+while [ 0 -le 1 ]
+do
+echo Please select your choice from 1 to 4 : 
+echo ""
+echo +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+echo 1-Add Contacts 
+echo 2-Delete Contacts 
+echo 3-Search Contacts 
+echo 4-Exit script 
+echo +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+read choice
+case $choice in
+1) ./addcontacts ;;
+2) echo Please select choice a -b  : 
+   echo a- Delete a contact by ID
+   echo b- Delete All Contacts
+   read ch
+   case $ch in
+   a) ./delcontacts ;;
+   b)  echo "" > ./contacts 
+   echo "#################################################"
+      echo All data has been deleted successfully
+   echo "#################################################"
+;;
+   esac ;;
+3) ./searchcontacts ;; 
+4) echo Good Bye 
+exit 0 ;;
+esac
+done

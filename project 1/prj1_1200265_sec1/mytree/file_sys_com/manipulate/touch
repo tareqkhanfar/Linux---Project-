@@ -1,0 +1,20 @@
+Name : Tareq Abdullah Khanfar
+Id : 1200265
+Section : 1
+
+
+Syntax : touch [OPTION]... FILE...
+
+
+Discription : used to create an empty file without any option 
+and can use to update the modifaction time and access time for file . 
+use the -a option to change only the access time 
+use the -m option to change only modifacation time .
+
+
+Example 1 : touch file1
+in the first assume the file1 does not exist on the system but after writing this command will be create empty file on the system              is called file1
+
+
+Example 2 - touch -m file1 
+after this command the modifacation time for file1 will be change to the current time.

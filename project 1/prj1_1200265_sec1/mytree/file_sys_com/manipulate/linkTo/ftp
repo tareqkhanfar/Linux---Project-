@@ -1,0 +1,16 @@
+Name : Tareq Abdullah Khanfar
+ID : 1200265
+Section : 1
+
+Syntax :  ftp [-46pinegvd] [host [port]]
+     pftp [-46inegvd] [host [port]]
+
+
+Discription : is the user interface to the Internet standard File Transfer Protocol.  The program allows a user to transfer files to and from 
+remote network site
+
+
+Example 1 : ftp -4 10.0.0.2
+Use only IPv4 to contact any host
+Example 2 : ftp> delete file3.txt
+this mean to delete the file3 from ftp server

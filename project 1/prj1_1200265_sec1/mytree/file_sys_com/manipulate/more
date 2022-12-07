@@ -1,0 +1,22 @@
+Name : Tareq Abdullah Khanfar
+ID : 1200265
+Section : 1200265
+
+Syntax : more [options] file...
+
+
+Discription : used to displaying content of larg  file  , to display one line at time you can press Enter to get result
+to display one page at a time you can press space bar to get result .
+
+
+
+Example 1 : more /etc/passwd
+
+this command to show first page of file passwd  then ask user to press Enter to display the next line or space bar to display next page          or q(quit) to exit 
+
+
+Example 2 : more +/user5 /etc/passwd
+
+The string(user5)  to be searched in each file(passwd) before starting to display it.
+
+

@@ -1,0 +1,28 @@
+while [ 0 -le 1 ]
+do
+echo Enter the ID of four digits exactly or 0 to stop
+read id 
+case $id in
+0) exit 0 ;;
+[0-9][0-9][0-9][0-9]) 
+TEMP=$(grep $id: ./contacts) 
+if [ $(echo $?) -eq 0 ]
+then
+data=$(grep -v $id: ./contacts)
+echo "$data" >  ./contacts
+echo "################################################"
+echo Contact has been Deleted successfully
+echo "################################################"
+else
+        echo ---------------------------------------------------------------
+ echo MESSAGE ERROR !! THE ID DOES NOT EXIST IN THE SYSTEM!!
+        echo ---------------------------------------------------------------
+fi ;;
+*)echo !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ echo PLEASE ENTER EXACTLY FOUR DIGIT !! 
+ echo !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ ;;
+esac
+done
+
+

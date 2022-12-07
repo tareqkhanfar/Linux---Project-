@@ -1,0 +1,25 @@
+Name : TAreq Abdullah Khanfar
+ID : 1200265
+Section : 1
+
+
+Syntax : ln [OPTION]... [-T] TARGET LINK_NAME
+       ln [OPTION]... TARGET
+       ln [OPTION]... TARGET... DIRECTORY
+       ln [OPTION]... -t DIRECTORY TARGET...
+Desciption : 
+This command creates links between files and by default be  hard links between files. And to use soft links. use option (-s or --symbolic.)is added to the command ln 
+
+note : each destination (name of new link) should not already exist.
+Example 1 : 
+Assume that there extist two file : file1 ,file 2 
+to make hard links file2 pointer to file1 
+we write ln -f file1 file2
+such that the option -f Remove any existing destination files if they exist.
+
+Example 2 : assum that there exist two file : file1 contain "hello" , file2 contain "bye" 
+to make hard link on file1 we write ln file1 file_link 
+so file_link now contains "hello" 
+now i want make hard link on file2 with file_link but i want take back up from file_link
+we write ln -b file1 file_link 
+

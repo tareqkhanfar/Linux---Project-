@@ -1,0 +1,21 @@
+Name : Tareq Abdullah Khanfar
+Id : 1200265
+Section : 1
+
+
+Syntax : ls [OPTION]... [FILE]...
+
+
+DESCRIPTION : used to list files and directory existing in the path it is in
+and you can list files in a particular directory via writting ls /name_directory
+and you can used it to list inforomation about file or directory such as permession or size or ownership ... via adding option to the command 
+
+
+Example 1 :  ls -i file1
+to list file1 with inode number 
+
+
+Example 2 : ls -ali 
+to list all files even hiddin files and all directory and links 
+list all of them with inode number and ,use a long listing format
+ such as list ownership , group , size , modifaction data 

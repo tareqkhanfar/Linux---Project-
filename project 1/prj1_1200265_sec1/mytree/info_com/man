@@ -1,0 +1,22 @@
+Name : Tareq Abdullah Khanfar
+ID : 1200265
+Section : 1
+
+
+
+Syntax : man [man options] [[section] page ...] ...
+       man -k [apropos options] regexp ...
+       man -K [man options] [section] term ...
+       man -f [whatis options] page ...
+       man -l [man options] file ...
+       man -w|-W [man options] page ...
+
+
+Discription : used to know all information about command , includes NAME, SYNOPSIS, 
+DESCRIPTION, OPTIONS, EXIT STATUS, RETURN VALUES, ERRORS, FILES, VERSIONS, EXAMPLES,
+
+
+Example 1 : man passwd 
+to display manual for passwd command 
+
+Example 2 : man 

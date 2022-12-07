@@ -1,0 +1,20 @@
+Name : Tareq Abdullah Khanfar
+ID :1200265
+Section : 1
+
+
+Syntax : mkdir [OPTION]... DIRECTORY...
+
+
+Discription : to allows user to create folders (directly) and you can set permission for folders in same command by option m
+and you can create multiple folders in the same command : mkdir file1 file2 ....
+
+
+Examoles : 1- mkdir -m777 dir1
+here , created directly is called dir1 with permission u = rwx , g = rwx , o= rwx
+
+
+Example 2 : to show message after create directly 
+we write this command mkdir -v dir2
+
+after write this command will be print mkdir: created directory 'dir2'

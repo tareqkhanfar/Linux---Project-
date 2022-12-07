@@ -1,0 +1,20 @@
+Name : Tareq Abdullah Khanfar
+Id : 1200265
+Section : 1
+
+
+Syntax : cp [OPTION]... [-T] SOURCE DEST
+       cp [OPTION]... SOURCE... DIRECTORY
+       cp [OPTION]... -t DIRECTORY SOURCE...
+
+
+Discription : this command used to copy file or multiple files such that It creates an exact image of a file on the system with different file name .
+
+
+Example 1 : cp file1 file2
+mean that Copy the contents file1 to file2
+
+
+Example 2 : cp a b c d dir1
+
+mean that copy files (a , b , c and d ) to a directory dir1 .

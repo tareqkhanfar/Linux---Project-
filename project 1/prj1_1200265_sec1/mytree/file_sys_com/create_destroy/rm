@@ -1,0 +1,22 @@
+Name : Tareq Abdullah Khanfar
+ID : 1200265
+Section : 1
+
+
+Syntax : rm [OPTION]... [FILE]...
+
+
+Disciprion : is used to remove objects such as files or directries or links 
+By default, it does not remove directories. to remove directry whether it is empty or not you can use  this command with options rf:
+rm -rf name_dir
+
+
+Examples : 1 - assume that there exist file is called data 
+rm -i data
+
+Before the deletion process, the user is asked if he wants to confirm the deletion, whether the files are empty or not
+
+
+Example 2 : assume that there exist file is called data2 
+rm -v data2
+here , The file is deleted and printed what he did

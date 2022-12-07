@@ -1,0 +1,18 @@
+Name : Tareq Abdullah Khanfar
+ID : 1200265
+Section : 1
+
+
+Syntax : telnet [-468ELadr] [-S tos] [-b address] [-e escapechar] [-l user] [-n tracefile] [host [port]]
+
+
+
+Discription : used to communicate with another host using telnet protocol 
+and used to create Over a TCP/IP network, this command is used to establish a remote connection with a system. It enables us to manage other systems from a terminal. To do administration, we can run a program.
+
+
+Example : telnet xyz.com
+to comunicate with host xyz.com 
+
+Example 2 : telnet 10.2.0.3 14
+to comunicate with host 10.2.0.3 portal : 14

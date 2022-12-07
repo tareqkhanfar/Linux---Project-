@@ -1,0 +1,20 @@
+Name : Tareq Abdullah Khanfar
+ID : 1200265
+Section : 1
+
+
+Syntax :  mv [OPTION]... [-T] SOURCE DEST
+       mv [OPTION]... SOURCE... DIRECTORY
+       mv [OPTION]... -t DIRECTORY SOURCE...
+
+
+Discription : used to rename the source file to destination file , and you can use to move the file to directory 
+
+
+Example 1 : mv file1 data
+this command mean change name file1 to data 
+
+
+Example 2 : mv file1 dir2
+
+meaning that move file ( file1)  to directory( dir2)

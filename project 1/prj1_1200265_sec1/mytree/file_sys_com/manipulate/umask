@@ -1,0 +1,21 @@
+Name : Tareq Abdullah Khanfar
+ID : 1200265
+Section : 1
+
+
+Syntax : umask [-S] [mask]
+
+Discription : All new files and directories  are created with the permissions set to default.
+The umask command displays or changes the file and directories mode creation mask, which controls the permissions bits for newly created files and directories. 
+
+
+
+Example : umask 034
+any directories that is created will take the permession  rwxr___wx
+
+any file will take the premession rw_r___w_
+
+Example 2 : umask -S
+display the permession ... assume that the value of umask 034 
+the result will be u=rwx,g=r,o=wx
+

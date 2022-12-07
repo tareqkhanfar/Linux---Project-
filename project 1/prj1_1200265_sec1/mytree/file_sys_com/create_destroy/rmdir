@@ -1,0 +1,20 @@
+Name : Tareq Abdullah khanfar
+ID : 1200265
+Section : 1
+
+
+Syntax : rmdir [OPTION]... DIRECTORY...
+
+
+Discription : used to remove empty directory on the system
+
+
+Examples : 1 - assume there exist empty directory is called dir3 
+rmdir -v dir3
+here , The folder will be deleted and printed rmdir: removing directory, 'dir3'
+
+
+Example 2 : assume that there exist directory is called dir1 is contain subdirectory is called b 
+
+rmdir -p dir1/b 
+here , will be dir1 and b are deleted (remove DIRECTORY and its ancestors)

@@ -1,0 +1,15 @@
+Name : Tareq Abdullah khanfar
+Id : 1200265
+Section : 1
+
+Syntax : cd dirname
+
+
+Discription : used to change current directory to new directory.
+
+Example1  : cd dir1
+Assume that there exist direcrory is called dir1 and contain a subdirectory is called dir2
+the previous command mean change current directories to dir1
+ 
+Example : cd /
+this command used to change the current directory to root directory
